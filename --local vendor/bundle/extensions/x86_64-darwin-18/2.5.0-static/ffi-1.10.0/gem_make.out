@@ -1,0 +1,22 @@
+current directory: /Users/yukiiwamoto/RubymineProjects/untitled/--local vendor/bundle/gems/ffi-1.10.0/ext/ffi_c
+/Users/yukiiwamoto/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190303-67256-75ydzn.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... no
+checking for ruby/thread.h... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/yukiiwamoto/RubymineProjects/untitled/--local vendor/bundle/gems/ffi-1.10.0/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/yukiiwamoto/RubymineProjects/untitled/--local vendor/bundle/gems/ffi-1.10.0/ext/ffi_c
+make "DESTDIR="
+/bin/sh: -c: line 0: unexpected EOF while looking for matching `"'
+/bin/sh: -c: line 1: syntax error: unexpected end of file
+make: *** ["/Users/yukiiwamoto/RubymineProjects/untitled/--local] Error 2
+
+make failed, exit code 2
